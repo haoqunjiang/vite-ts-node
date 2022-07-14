@@ -1,0 +1,21 @@
+{
+  "name": "vite-ts-node",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "ts-node ./node_modules/vite/bin/vite.js",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.4",
+    "@vitejs/plugin-vue": "^3.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.0",
+    "vue-tsc": "^0.38.4"
+  }
+}
